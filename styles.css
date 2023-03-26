@@ -402,6 +402,7 @@ PAGE 5
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-bottom: 30px;
 }
 
 .p__page5 {
@@ -462,13 +463,19 @@ PAGE 5
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: 70px;
 }
 
 .card {
-  border: solid 2px black;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: .5rem;
   text-align: center;
-  width: calc(100% / 3);
+  width: calc(100% / 3.24);
+  margin-right: 30px;
+}
+
+.card__middle {
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
 .card__1 {
@@ -477,10 +484,18 @@ PAGE 5
   margin: 25px 0;
 }
 
+.m1 {
+  color: #F7FAFC;
+}
+
 .card__2 {
   font-size: 3rem;
   font-weight: 700;
   margin: 25px 0;
+}
+
+.m2 {
+  color: #F7FAFC;
 }
 
 .card__3 {
@@ -491,23 +506,31 @@ PAGE 5
   margin: 25px 0;
 }
 
+.m3 {
+  color: #EDF2F7;
+}
+
 .card__p {
   font-size: 16px;
   color: #718096;
   font-weight: 500;
+  margin: 25px 0;
+}
+
+.mp {
+  color: #E2E8F0;
 }
 
 .card__heading {
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px rgb(226, 232, 240, .2);
 }
 
 .card__body {
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px rgb(226, 232, 240, .1);
 }
 
 .glow__line {
   background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-  position: absolute;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -516,6 +539,46 @@ PAGE 5
   border-top-right-radius: 0.5rem;
 }
 
-.gradientized {
+.glow-middle {
+  background: none
+}
+
+.glow-3 {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.gradientized{
   background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  margin: 25px 0;
+  padding: 16px 32px;
+  letter-spacing: 1px;
+  width: 47%;
+}
+
+.gradientized-2{
+  background-color: #F7FAFC;
+  color: #6416FF;
+  margin: 25px 0;
+  padding: 16px 32px;
+  letter-spacing: 1px;
+  width: 47%;
+}
+
+.gradientized-3{
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  margin: 25px 0;
+  padding: 16px 32px;
+  letter-spacing: 1px;
+  width: 47%;
+}
+
+.button__cards {
+  border-radius: 9999px;
+  background-color: #6415ff;
+  color: white;
+  padding: 12px 32px;
+  margin: 32px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  width: 9rem;
 }
