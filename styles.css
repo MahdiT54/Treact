@@ -416,3 +416,106 @@ PAGE 5
 .page5__text {
   width: 50%;
 }
+
+.page__5--attributes {
+  display: flex;
+}
+
+.affordable__row {
+  width: 50%;
+}
+
+.affordable__p {
+  color: #718096;
+  margin-top: 1rem;
+  line-height: 1.625;
+}
+
+.affordable__dollarsign {
+  display: flex;
+  align-items: center;
+  margin-left: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #243e63;
+}
+
+.affordable__dollarsign--img {
+  width: 40px;
+}
+
+.page__5--button {
+  display: flex;
+}
+
+.page5__img {
+  width: 50%;
+}
+
+.page__6--row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  border: solid 2px black;
+  border-radius: .5rem;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.card__1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+.card__2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+.card__3 {
+  color: #a0aec0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 25px 0;
+}
+
+.card__p {
+  font-size: 16px;
+  color: #718096;
+  font-weight: 500;
+}
+
+.card__heading {
+  border-bottom: solid 2px black;
+}
+
+.card__body {
+  border-bottom: solid 2px black;
+}
+
+.glow__line {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.gradientized {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
