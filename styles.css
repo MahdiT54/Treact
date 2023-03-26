@@ -407,7 +407,7 @@ PAGE 5
 
 .p__page5 {
   font-size: 18px;
-  margin: 16px 0 0;
+  margin: 28px 0;
   color: #7c8ba1;
   text-align: left;
   font-weight: 500;
@@ -435,7 +435,6 @@ PAGE 5
 .affordable__dollarsign {
   display: flex;
   align-items: center;
-  margin-left: 0.75rem;
   font-size: 1.25rem;
   font-weight: 700;
   color: #243e63;
@@ -443,6 +442,7 @@ PAGE 5
 
 .affordable__dollarsign--img {
   width: 40px;
+  margin-right: 10px;
 }
 
 .page__5--button {
