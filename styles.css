@@ -468,14 +468,18 @@ PAGE 5
 
 .card {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-align: center;
   width: calc(100% / 3.24);
   margin-right: 30px;
 }
 
 .card__middle {
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
 }
 
 .card__1 {
@@ -485,7 +489,7 @@ PAGE 5
 }
 
 .m1 {
-  color: #F7FAFC;
+  color: #f7fafc;
 }
 
 .card__2 {
@@ -495,7 +499,7 @@ PAGE 5
 }
 
 .m2 {
-  color: #F7FAFC;
+  color: #f7fafc;
 }
 
 .card__3 {
@@ -507,7 +511,7 @@ PAGE 5
 }
 
 .m3 {
-  color: #EDF2F7;
+  color: #edf2f7;
 }
 
 .card__p {
@@ -518,19 +522,23 @@ PAGE 5
 }
 
 .mp {
-  color: #E2E8F0;
+  color: #e2e8f0;
 }
 
 .card__heading {
-  border-bottom: solid 2px rgb(226, 232, 240, .2);
+  border-bottom: solid 2px rgb(226, 232, 240, 0.2);
 }
 
 .card__body {
-  border-bottom: solid 2px rgb(226, 232, 240, .1);
+  border-bottom: solid 2px rgb(226, 232, 240, 0.1);
 }
 
 .glow__line {
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   left: 0px;
   right: 0px;
   top: 0px;
@@ -540,32 +548,44 @@ PAGE 5
 }
 
 .glow-middle {
-  background: none
+  background: none;
 }
 
 .glow-3 {
-  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 
-.gradientized{
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+.gradientized {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   margin: 25px 0;
   padding: 16px 32px;
   letter-spacing: 1px;
   width: 47%;
 }
 
-.gradientized-2{
-  background-color: #F7FAFC;
-  color: #6416FF;
+.gradientized-2 {
+  background-color: #f7fafc;
+  color: #6416ff;
   margin: 25px 0;
   padding: 16px 32px;
   letter-spacing: 1px;
   width: 47%;
 }
 
-.gradientized-3{
-  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+.gradientized-3 {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
   margin: 25px 0;
   padding: 16px 32px;
   letter-spacing: 1px;
@@ -582,3 +602,40 @@ PAGE 5
   font-weight: 600;
   width: 9rem;
 }
+
+.ratings {
+  color: #f6ad55;
+  margin-bottom: 16px;
+}
+
+.figure__page7 {
+  width: 50%;
+}
+
+.testimonials {
+  width: 50%;
+  padding-left: 64px;
+}
+
+.page7__p {
+  margin: 16px 0 40px;
+}
+
+.reviewers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviewer__image {
+  display: flex;
+  align-items: center;
+}
+
+.image__mask {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
