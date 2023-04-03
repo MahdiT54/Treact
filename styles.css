@@ -470,7 +470,7 @@ PAGE 5
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   text-align: center;
-  width: calc(100% / 3.24);
+  width: calc(100% / 3.203);
   margin-right: 30px;
 }
 
