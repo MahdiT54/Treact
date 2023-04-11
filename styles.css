@@ -844,9 +844,31 @@ footer {
   flex-direction: column;
 }
 
+.footer__end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__p {
+  font-size: 16px;
+  color: #cbd5e0;
+  font-weight: 500;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  color: #f7fafc;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
 .footer__logo--img {
   width: 32px;
   height: 32px;
+  margin-right: 8px;
 }
 
 .footer__socials--img {
@@ -855,5 +877,15 @@ footer {
 }
 
 .footer__social--wrap {
+  background-color: white;
+  padding: 8px;
   border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__socials {
+  display: flex;
 }
