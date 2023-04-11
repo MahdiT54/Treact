@@ -170,6 +170,7 @@ input {
 .custies__img {
   padding-top: 16px;
   padding-right: 64px;
+  filter: opacity(.5);
 }
 
 .top__description {
