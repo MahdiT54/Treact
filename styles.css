@@ -764,7 +764,8 @@ PAGE 5
 }
 
 .faq__list {
-  width: 896px;
+  max-width: 896px;
+  width: 100%;
 }
 
 .list__item {
@@ -964,11 +965,13 @@ footer {
   }
   .left__wrap {
     margin: 0 auto;
-    width: 53%;
+    width: 100%;
+    max-width: 525px;
   }
   .right__wrap {
     margin: 0 auto;
-    width: 53%;
+    width: 100%;
+    max-width: 525px;
     padding: 0;
   }
   .testimonials {
@@ -1055,7 +1058,67 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
-
-
-})
+@media (max-width: 767px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .p__title {
+    font-size: 14px;
+  }
+  .page__3--row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .img__page3 {
+    width: 100%;
+    max-width: 448px;
+    margin-bottom: 64px;
+  }
+  .page__3--text-container {
+    width: 100%;
+    max-width: 448px;
+    align-items: center;
+    padding: 0;
+  }
+  .h1__page3 {
+    text-align: center;
+  }
+  .p__page3 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .page__4--row {
+    flex-direction: column;
+  }
+  .img__page4 {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto 56px;
+  }
+  .page__4--text-container {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .steps__pg4 {
+    text-align: center;
+  }
+  .h1__pg4 {
+    text-align: center;
+  }
+  .step__box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .step__box--right {
+    margin: 16px 0 0;
+  }
+  .step__box--right-h3 {
+    text-align: center;
+  }
+  .step__box--right-p {
+    text-align: center;
+  }
+}
