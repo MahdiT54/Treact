@@ -66,7 +66,6 @@ section {
 
 .page__2--row {
   flex-direction: column;
-  padding: 0 132px;
   margin: 96px 0;
 }
 
@@ -522,7 +521,6 @@ PAGE 5
 
 .card__wrap {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   margin-top: 70px;
 }
@@ -936,7 +934,7 @@ footer {
   display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .page1__h1 {
     font-size: 36px;
   }
@@ -944,11 +942,120 @@ footer {
   .page1__p {
     font-size: 16px;
   }
+}
 
-  .page__2--row {
+@media (max-width: 1023px) {
+  .page1__h1 {
+    font-size: 30px;
+  }
+  .page1__p {
+    text-align: center;
+  }
+  .email__form {
+    margin: 0 auto;
+  }
+  .customer__logos {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  .custies__img {
+    padding: 16px 0;
+  }
+  .left__wrap {
+    margin: 0 auto;
+    width: 53%;
+  }
+  .right__wrap {
+    margin: 0 auto;
+    width: 53%;
     padding: 0;
   }
   .testimonials {
     padding-left: 32px;
   }
+
+  .nav__links {
+    display: none;
+  }
+
+  .header__row {
+    display: flex;
+    flex-direction: column;
+  }
+  .p__title {
+    font-size: 16px;
+  }
+  .services {
+    max-width: 800px;
+  }
+  .service {
+    width: 50%;
+  }
+  .page__2--row {
+    align-items: center;
+  }
+  .h1__page3 {
+    font-size: 36px;
+  }
+  .p__page3 {
+    font-size: 16px;
+  }
+  .page__3--text-container {
+    padding-right: 32px;
+  }
+  .h1__pg4 {
+    font-size: 36px;
+  }
+  .h1__pg5 {
+    font-size: 36px;
+  }
+  .p__page5 {
+    font-size: 16px;
+  }
+  .page__5--attributes {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  .affordable__row {
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  .card__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 64px;
+    width: 350px;
+  }
+  .h2__service {
+    font-size: 36px;
+  }
+  .testimonials {
+    width: 70%;
+  }
+  .h2__service--pricing {
+    font-size: 48px;
+  }
+  .list__item {
+    font-size: 18px;
+  }
+  .end__container {
+    width: 100%;
+  }
+  .end__container--row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .end__quote {
+    text-align: center;
+    margin-bottom: 24px;
+  }
 }
+
+@media (max-width: 768px) {
+
+
+})
