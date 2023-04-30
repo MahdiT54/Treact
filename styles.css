@@ -1121,4 +1121,74 @@ footer {
   .step__box--right-p {
     text-align: center;
   }
+  .page__5--row {
+    flex-direction: column-reverse;
+  }
+  .page5__text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 448px;
+    margin-top: 64px;
+  }
+  .page5__img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 448px;
+  }
+  .h3__page5 {
+    text-align: center;
+  }
+  .h1__pg5 {
+    text-align: center;
+  }
+  .p__page5 {
+    text-align: center;
+    font-size: 14px;
+  }
+  .page__5--attributes {
+    margin: 0 auto;
+  }
+  .affordable__dollarsign {
+    justify-content: center;;
+  }
+  .affordable__p {
+    text-align: center;
+  }
+  .button__page--3 {
+    margin: 0 auto;
+  }
+  .h2__service--pricing {
+    text-align: center;
+  }
+  .button__page--3 {
+    margin: 36px auto;
+  }
+  .page__7--row {
+    flex-direction: column;
+  }
+  .figure__page7 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 448px;
+  }
+  .testimonials {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 448px;
+    margin-top: 64px;
+  }
+  .h2__service {
+    text-align: center;
+  }
+  .ratings {
+    text-align: center;
+  }
+  .h3__review-subject {
+    text-align: center;
+  }
+  .page7__p {
+    text-align: center;
+  }
 }
