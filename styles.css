@@ -760,7 +760,8 @@ PAGE 5
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 576px;
+  max-width: 576px;
+  width: 100%;
 }
 
 .faq__list {
