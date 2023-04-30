@@ -1,6 +1,7 @@
-# Treact
-# This is a react template project
-# more details soon
+#Templates that are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
 
+#Fully responsive on mobile and tablets
 
-#Mahdi
+#CSS HTML JS
+
+#Have any questions? Concerns? email dev@mahditanzim.me
