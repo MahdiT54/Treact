@@ -64,6 +64,64 @@ section {
   padding: 96px 0;
 }
 
+.page__2--outer,
+.page__1--outer {
+  overflow: hidden;
+  position: relative;
+}
+
+.pg__1--blob {
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -10;
+  transform: translate(-700px, 400px);
+  scale: 0.45;
+  opacity: 0.05;
+}
+
+.pg__2--blob {
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  opacity: 0.25;
+  scale: 0.5;
+  transform: translate(275px, 300px);
+}
+
+.pg__3--square {
+  pointer-events: none;
+  position: absolute;
+  z-index: -10;
+  right: 0;
+  bottom: 0;
+  transform: translate(50px, 50px);
+  opacity: .4;
+}
+
+.pg__4--square {
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(40px);
+  opacity: .5;
+  z-index: -10;
+}
+
+.pg__6--blob {
+  position: absolute;
+  scale: 0.45;
+  opacity: .25;
+  z-index: -20;
+  pointer-events: none;
+  left: 0;
+  bottom: 0;
+  transform: translate(-675px,650px);
+}
+
 .page__2--row {
   flex-direction: column;
   margin: 96px 0;
@@ -154,7 +212,7 @@ input {
   border-width: 2px;
   padding-left: 2rem;
   font-weight: 500;
-  filter: opacity(.5);
+  filter: opacity(0.5);
 }
 
 .started__button {
@@ -351,6 +409,7 @@ PAGE 3
   width: 50%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 /* 
@@ -364,6 +423,7 @@ PAGE 4
 }
 
 .img__page4 {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -493,9 +553,27 @@ PAGE 5
   color: #243e63;
 }
 
+.affordable__img--outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(154 230 180);
+  border-radius: 9999px;
+  color: rgb(39 103 73);
+  padding: .5rem;
+  width: 36px;
+  height: 36px;
+  margin-right: .75rem;
+}
+
 .affordable__dollarsign--img {
-  width: 40px;
-  margin-right: 10px;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.aff__out--2 {
+  background-color: rgb(254 178 178);
+  color: rgb(155 44 44);
 }
 
 .page__5--button {
@@ -520,6 +598,7 @@ PAGE 5
 }
 
 .card__wrap {
+  position: relative;
   display: flex;
   width: 100%;
   margin-top: 70px;
@@ -531,6 +610,7 @@ PAGE 5
   text-align: center;
   width: calc((100% / 3) - 30px);
   margin-right: 30px;
+  background-color: rgb(255 255 255);
 }
 
 .card__middle {
@@ -1152,7 +1232,7 @@ footer {
     margin: 0 auto;
   }
   .affordable__dollarsign {
-    justify-content: center;;
+    justify-content: center;
   }
   .affordable__p {
     text-align: center;
