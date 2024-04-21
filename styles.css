@@ -99,7 +99,7 @@ section {
   right: 0;
   bottom: 0;
   transform: translate(50px, 50px);
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .pg__4--square {
@@ -107,19 +107,19 @@ section {
   position: absolute;
   bottom: 0;
   transform: translateY(40px);
-  opacity: .5;
+  opacity: 0.5;
   z-index: -10;
 }
 
 .pg__6--blob {
   position: absolute;
   scale: 0.45;
-  opacity: .25;
+  opacity: 0.25;
   z-index: -20;
   pointer-events: none;
   left: 0;
   bottom: 0;
-  transform: translate(-675px,650px);
+  transform: translate(-675px, 650px);
 }
 
 .page__2--row {
@@ -212,7 +212,23 @@ input {
   border-width: 2px;
   padding-left: 2rem;
   font-weight: 500;
-  filter: opacity(0.5);
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 300ms;
+}
+
+.email__input::placeholder {
+  color: rgb(226, 232, 240); /* Replace #yourColor with the color you want */
+}
+
+.email__input:hover {
+  border-color: rgb(160 174 192);
+}
+
+.email__input:focus {
+  border-color: rgb(100 21 255);
+  outline: transparent solid 2px;
+  outline-offset: 2px;
 }
 
 .started__button {
@@ -321,7 +337,8 @@ input {
 .services {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 48px;
+  max-width: 1024px;
+  margin: 48px auto 0;
 }
 
 .service {
@@ -342,6 +359,8 @@ input {
   border-radius: 9999px;
   border-width: 1px;
   padding: 1.25rem;
+  width: 66px;
+  height: 66px;
 }
 
 .service__img {
@@ -560,10 +579,10 @@ PAGE 5
   background-color: rgb(154 230 180);
   border-radius: 9999px;
   color: rgb(39 103 73);
-  padding: .5rem;
+  padding: 0.5rem;
   width: 36px;
   height: 36px;
-  margin-right: .75rem;
+  margin-right: 0.75rem;
 }
 
 .affordable__dollarsign--img {
