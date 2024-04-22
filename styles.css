@@ -16,6 +16,10 @@ a {
   transition: opacity 300ms ease;
 }
 
+li {
+  list-style-type: none;
+}
+
 section {
   width: 100%;
   display: flex;
@@ -48,12 +52,16 @@ section {
 }
 
 .link__hover-effect--black:after {
-  background-color: #243e63;
+  background-color: rgb(100 21 255);
 }
 
 .link__hover-effect:hover:after {
   width: 100%;
   left: 0;
+}
+
+.nav__link:hover {
+  color: rgb(100 21 255);
 }
 
 .row {
@@ -66,7 +74,8 @@ section {
 
 .page__2--outer,
 .page__1--outer,
-.page__8--outer {
+.page__8--outer,
+footer {
   overflow: hidden;
   position: relative;
 }
@@ -150,7 +159,6 @@ section {
 }
 
 .end__container--blob1 {
-  pointer-events: none;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -172,6 +180,30 @@ section {
   opacity: 0.5;
   z-index: -20;
   transform: translate(50px, -250px);
+}
+
+.footer__blob1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 20rem;
+  width: 20rem;
+  color: rgb(80 17 204);
+  transform: translate(-80px, -125px);
+  opacity: 0.5;
+  z-index: -20;
+}
+
+.footer__blob2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 20rem;
+  width: 20rem;
+  color: rgb(80 17 204);
+  transform: translate(125px, 190px);
+  opacity: 0.5;
+  z-index: -20;
 }
 
 .page__2--row {
@@ -229,6 +261,7 @@ nav {
   font-size: 14px;
   font-weight: 600;
   color: #243e63;
+  transition: all 300ms ease;
 }
 
 .login {
@@ -1021,6 +1054,7 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 0 24px;
+  z-index: 0;
 }
 
 .footer__lists {
@@ -1037,7 +1071,12 @@ footer {
 }
 
 .footer__list--title {
+  text-transform: uppercase;
   margin-bottom: 28px;
+}
+
+.footer__list--link {
+  margin-bottom: .75rem;
 }
 
 .footer__link {
