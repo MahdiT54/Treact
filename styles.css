@@ -67,7 +67,7 @@ section {
 }
 
 .nav__link:hover {
-  color: rgb(100 21 255);
+  background-color: rgb(80 17 204);
 }
 
 .row {
@@ -403,7 +403,7 @@ input {
 
 .h2__service {
   font-size: 48px;
-  text-align: left;
+  text-align: center;
   color: #243e63;
   font-weight: 900;
   letter-spacing: 0.025em;
