@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -66,8 +66,16 @@ section {
   left: 0;
 }
 
-.nav__link:hover {
+.signup:hover {
   background-color: rgb(80 17 204);
+}
+
+.signup:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.nav__link:hover {
+  color: rgb(80 17 204);
 }
 
 .row {
@@ -272,7 +280,8 @@ nav {
   align-items: center;
 }
 
-.nav__link {
+.nav__link,
+.nav__link--signup {
   margin: 0 24px;
   font-size: 14px;
   font-weight: 600;
