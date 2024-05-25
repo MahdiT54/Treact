@@ -231,7 +231,6 @@ footer {
 
 .page__2--row {
   flex-direction: column;
-  margin: 96px 0;
 }
 
 .left__wrap {
@@ -304,6 +303,17 @@ nav {
 
 button {
   cursor: pointer;
+}
+
+.btn__menu {
+  background-color: white;
+  transition: all 300ms ease;
+  border: none;
+  font-size: 22px;
+}
+
+.btn__menu:hover {
+  color: #6414ff;
 }
 
 button,
@@ -659,7 +669,7 @@ PAGE 5
 
 .p__page5 {
   font-size: 18px;
-  margin: 28px 0;
+  margin-top: 1rem;
   color: #7c8ba1;
   text-align: left;
   font-weight: 500;
@@ -993,6 +1003,75 @@ PAGE 5
 .review__buttons {
   display: flex;
 }
+
+/* Accordion */
+
+.accordion {
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  max-width: 56rem;
+}
+
+.accordion-item {
+  /* display: flex; */
+  justify-content: space-between;
+  width: 100%;
+  color: #2d3748;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1.25rem 2.5rem;
+  margin-top: 1.25rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #edf2f7;
+  transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+  background-color: #e2e8f0;
+}
+
+.accordion-header {
+  background: none;
+  border: none;
+  outline: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.accordion-header__outer {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  /* transition: max-height 0.15s ease-in-out; */
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+.accordion-content p {
+  margin: 15px 0 0;
+}
+
+.fa-chevron-up {
+  transform: rotate(180deg);
+  transition: transform 0.1s ease-out;
+  font-size: 1rem;
+}
+
+.fa-chevron-up.up {
+  transform: rotate(360deg);
+}
+
+/* Accordion */
 
 .page__8--row {
   display: flex;
