@@ -17,7 +17,7 @@
       <div class="page__1--outer">
         <section id="page__1">
           <nav>
-            <a href="" class="nav__link--logo">
+            <a href="#" class="nav__link--logo">
               <img
                 src="./assets/treact_logo.svg"
                 class="nav__link--logo-img"
@@ -27,35 +27,48 @@
             </a>
             <div class="nav__links">
               <a
-                href=""
+                href="#page__2"
                 class="nav__link link__hover-effect link__hover-effect--black"
                 >About</a
               >
               <a
-                href=""
+                href="#page__5"
                 class="nav__link link__hover-effect link__hover-effect--black"
                 >Blog</a
               >
               <a
-                href=""
+                href="#page__6"
                 class="nav__link link__hover-effect link__hover-effect--black"
                 >Pricing</a
               >
               <a
-                href=""
+                href="#"
                 class="nav__link link__hover-effect link__hover-effect--black"
                 >Contact Us</a
               >
               <a
-                href=""
+                href="#"
                 class="nav__link login link__hover-effect link__hover-effect--black"
                 >Login</a
               >
-              <a href="" class="nav__link--signup signup">Sign Up</a>
+              <a href="#" class="nav__link--signup signup">Sign Up</a>
             </div>
-            <button class="btn__menu">
+            <button class="btn__menu" onclick="openMenu()">
               <i class="fas fa-bars"></i>
             </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="small__nav--links">
+                <a href="#page__2" class="nav__link--small link__hover-effect link__hover-effect--black" onclick="closeMenu()">About</a>
+                <a href="#page__5" class="nav__link--small link__hover-effect link__hover-effect--black" onclick="closeMenu()">Blog</a>
+                <a href="#page__6" class="nav__link--small link__hover-effect link__hover-effect--black" onclick="closeMenu()">Pricing</a>
+                <a href="#" class="nav__link--small link__hover-effect link__hover-effect--black" onclick="closeMenu()">Contact Us</a>
+                <a href="#" class="nav__link--small link__hover-effect link__hover-effect--black" onclick="closeMenu()">Login</a>
+                <a href="#" class="nav__enlarge  nav__link--signup signup" onclick="closeMenu()">Sign Up</a>
+              </div>
+            </div>
           </nav>
           <header>
             <div class="row header__row">
@@ -74,7 +87,9 @@
                     class="email__input"
                     placeholder="Your E-mail Address"
                   />
-                  <button class="started__button purple__button--hover">Get Started</button>
+                  <button class="started__button purple__button--hover">
+                    Get Started
+                  </button>
                 </div>
                 <div class="customer__logos">
                   OUR TRUSTED CUSTOMERS
@@ -240,7 +255,11 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <button class="button__page--3 purple__button--hover purple__button--focus">Learn More</button>
+            <button
+              class="button__page--3 purple__button--hover purple__button--focus"
+            >
+              Learn More
+            </button>
           </div>
           <figure class="img__page3">
             <img src="./assets/quality_work.png" alt="" />
@@ -435,7 +454,11 @@
                 </p>
               </div>
             </div>
-            <button class="button__page--3 purple__button--hover purple__button--focus">Learn More</button>
+            <button
+              class="button__page--3 purple__button--hover purple__button--focus"
+            >
+              Learn More
+            </button>
           </div>
           <figure class="page5__img">
             <img src="./assets/page_5_picture.svg" alt="" />
@@ -467,7 +490,11 @@
                 <p class="card__p">12 Internal Pages</p>
                 <p class="card__p">Basic Assistance</p>
               </div>
-              <button class="button__page--3 gradientized purple__button--focus">BUY NOW</button>
+              <button
+                class="button__page--3 gradientized purple__button--focus"
+              >
+                BUY NOW
+              </button>
             </div>
             <div class="card card__middle">
               <div class="glow__line glow-middle"></div>
@@ -483,7 +510,11 @@
                 <p class="card__p mp">22 Internal Pages</p>
                 <p class="card__p mp">Priority Assistance</p>
               </div>
-              <button class="button__page--3 gradientized-2 purple__button--focus">BUY NOW</button>
+              <button
+                class="button__page--3 gradientized-2 purple__button--focus"
+              >
+                BUY NOW
+              </button>
             </div>
             <div class="card">
               <div class="glow__line glow-3"></div>
@@ -499,7 +530,11 @@
                 <p class="card__p">37 Internal Pages</p>
                 <p class="card__p">Personal Assistance</p>
               </div>
-              <button class="button__page--3 gradientized-3 purple__button--focus">BUY NOW</button>
+              <button
+                class="button__page--3 gradientized-3 purple__button--focus"
+              >
+                BUY NOW
+              </button>
             </div>
             <svg
               class="pg__6--blob"
@@ -616,13 +651,13 @@
                   </button>
                   <i class="fa-solid fa-chevron-up up"></i>
                 </div>
-                <div class="accordion-content open" style="max-height: 1000px;">
+                <div class="accordion-content open" style="max-height: 1000px">
                   <p>
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                   </p>
                 </div>
               </div>
@@ -636,10 +671,10 @@
                 <div class="accordion-content">
                   <p>
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                   </p>
                 </div>
               </div>
@@ -653,27 +688,28 @@
                 <div class="accordion-content">
                   <p>
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                   </p>
                 </div>
               </div>
               <div class="accordion-item">
                 <div class="accordion-header__outer">
                   <button class="accordion-header">
-                    Is there a subscription service to get the latest templates ?
+                    Is there a subscription service to get the latest templates
+                    ?
                   </button>
                   <i class="fa-solid fa-chevron-up"></i>
                 </div>
                 <div class="accordion-content">
                   <p>
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                   </p>
                 </div>
               </div>
@@ -687,10 +723,10 @@
                 <div class="accordion-content">
                   <p>
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                   </p>
                 </div>
               </div>
@@ -704,10 +740,10 @@
                 <div class="accordion-content">
                   <p>
                     Yes, they all are. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
                   </p>
                 </div>
               </div>
