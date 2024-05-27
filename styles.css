@@ -537,7 +537,6 @@ input {
 
 .h2__service {
   font-size: 48px;
-  text-align: center;
   color: #243e63;
   font-weight: 900;
   letter-spacing: 0.025em;
@@ -771,11 +770,15 @@ PAGE 5
 
 .p__page5 {
   font-size: 18px;
-  margin-top: 1rem;
+  margin: 1rem 0;
   color: #7c8ba1;
   text-align: left;
   font-weight: 500;
   line-height: 1.625;
+}
+
+.user__expbox {
+  margin-top: 2.5rem;
 }
 
 .p__page5--faqs {
@@ -1217,11 +1220,8 @@ PAGE 5
 
 .end__container {
   background-color: #6415ff;
-  height: 282px;
+  padding: 6rem 0;
   border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  min-width: 400px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -1230,8 +1230,9 @@ PAGE 5
 .end__container--row {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 28px;
+  max-width: 1024px;
+  padding: 0 2rem;
+  margin: 0 auto;
 }
 
 .end__quote {
@@ -1243,7 +1244,7 @@ PAGE 5
 .end__buttons {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .get-started__button {
@@ -1251,7 +1252,7 @@ PAGE 5
   border-radius: 9999px;
   background-color: #f56565;
   color: white;
-  padding: 12px 32px;
+  padding: 1.25rem 2.5rem;
   font-size: 16px;
   font-weight: 600;
   width: 185px;
@@ -1273,7 +1274,7 @@ PAGE 5
   background-color: #6415ff;
   border: 1px solid whitesmoke;
   color: #f7fafc;
-  padding: 12px 32px;
+  padding: 1.25rem 2.5rem;
   font-size: 16px;
   font-weight: 600;
   width: 185px;
@@ -1293,7 +1294,7 @@ PAGE 5
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 footer {
@@ -1457,7 +1458,7 @@ footer {
     max-width: 800px;
   }
   .service {
-    width: 50%;
+    width: 55%;
   }
   .page__2--row {
     align-items: center;
@@ -1509,9 +1510,6 @@ footer {
   .list__item {
     font-size: 18px;
   }
-  .end__container {
-    width: 100%;
-  }
   .end__container--row {
     flex-direction: column;
     align-items: center;
@@ -1526,9 +1524,6 @@ footer {
   .services {
     flex-direction: column;
     align-items: center;
-  }
-  .p__title {
-    font-size: 14px;
   }
   .page__3--row {
     flex-direction: column-reverse;
@@ -1549,7 +1544,7 @@ footer {
     text-align: center;
   }
   .p__page3 {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
   }
   .page__4--row {
@@ -1609,7 +1604,7 @@ footer {
   }
   .p__page5 {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
   }
   .page__5--attributes {
     margin: 0 auto;
@@ -1653,6 +1648,33 @@ footer {
     text-align: center;
   }
   .page7__p {
+    text-align: center;
+  }
+  .end__container {
+    padding: 5rem 0;
+  }
+  .end__quote {
+    max-width: 32rem;
+    width: 100%;
+  }
+  .end__buttons {
+    /* width: auto; */
+  }
+}
+
+@media (max-width: 639px) {
+  .started__button {
+    position: static;
+    width: 100%;
+    padding: 1.2rem 0;
+    margin: 16px 8px 16px 0;
+  }
+  .email__input {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0;
+  }
+  .page1__h1 {
     text-align: center;
   }
 }
