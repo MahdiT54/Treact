@@ -1458,7 +1458,7 @@ footer {
     max-width: 800px;
   }
   .service {
-    width: 55%;
+    width: 50%;
   }
   .page__2--row {
     align-items: center;
@@ -1524,6 +1524,10 @@ footer {
   .services {
     flex-direction: column;
     align-items: center;
+  }
+  .service {
+    max-width: 24rem;
+    width: 100%;
   }
   .page__3--row {
     flex-direction: column-reverse;
