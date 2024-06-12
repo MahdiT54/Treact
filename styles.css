@@ -1527,6 +1527,10 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .service {
+    max-width: 24rem;
+    width: 100%;
+  }
   .page__3--row {
     flex-direction: column-reverse;
     align-items: center;
