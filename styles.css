@@ -540,6 +540,8 @@ input {
   color: #243e63;
   font-weight: 900;
   letter-spacing: 0.025em;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .h1__service {
@@ -1458,7 +1460,7 @@ footer {
     max-width: 800px;
   }
   .service {
-    width: 55%;
+    width: 50%;
   }
   .page__2--row {
     align-items: center;
@@ -1676,5 +1678,91 @@ footer {
   }
   .page1__h1 {
     text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .h2__service--pricing {
+    font-size: 36px;
+  }
+  .service {
+    width: 100%;
+  }
+  .service__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text__container {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .h1__service {
+    text-align: center;
+  }
+  .p__service {
+    text-align: center;
+  }
+  .p__title {
+    font-size: 14px;
+  }
+  .reviewers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviewer__image {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review__buttons {
+    margin-top: 32px;
+  }
+  .testimonials {
+    padding: 0;
+  }
+  .naming__section {
+    margin: 16px 0 0 0;
+  }
+  .end__buttons {
+    flex-direction: column;
+  }
+  .get-started__button {
+    margin: 0 0 16px 0;
+  }
+  .get-started__button,
+  .contact__button-end {
+    font-size: 14px;
+    padding: 1rem 2rem;
+  }
+  .end__quote {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .footer__row {
+    padding: 48px 0;
+  }
+  .footer__lists {
+    flex-wrap: wrap;
+    padding: 0 64px;
+  }
+  .footer__list {
+    margin-top: 48px;
+    text-align: center;
+  }
+  .footer__end {
+    flex-direction: column;
+  }
+  .footer__p {
+    margin-top: 32px;
+    font-size: 14px;
+  }
+  .footer__socials {
+    margin-top: 32px;
+  }
+  .card {
+    margin: 0 0 64px;
+    width: 100%;
+  }
+  .card__2 {
+    font-size: 2.2rem;
   }
 }
